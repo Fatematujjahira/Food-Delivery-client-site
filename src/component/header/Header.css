@@ -1,0 +1,18 @@
+.nav-item{
+  font-size: 20px;
+  color: goldenrod;
+}
+.button-logout{
+    background-color: rgb(246, 181, 15);
+    color: white;
+    border: 1px solid rgb(96, 93, 86);
+    border-radius: 16px;
+}
+.button-logout:hover{
+    background-color: tomato;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 16px;
+       
+}
+
