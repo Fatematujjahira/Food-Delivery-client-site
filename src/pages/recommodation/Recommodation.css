@@ -10,8 +10,14 @@
      background-color: white;
 }
 .shadow:hover{
-    box-shadow: 4px 4px 3px gray;
+    box-shadow: 4px 4px 3px rgb(140, 140, 140);
      /* border: 1px solid gray; */
      /* background-color: white; */
+}
+.discount{
+    border-radius:  0px 50px 0px 50px;
+    padding: 10px;
+    background-color: rgb(255, 77, 77);
+    color: rgb(227, 220, 220);
 }
 

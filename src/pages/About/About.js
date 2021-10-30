@@ -3,11 +3,11 @@ import { Card, Col, Row } from 'react-bootstrap';
 import './About.css';
 import Bounce from "react-reveal/Bounce";
 import Zoom from 'react-reveal/Zoom';
-import Fadew from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 import { NavLink } from 'react-router-dom';
 const About = () => {
     return (
-        <div>
+        <div className="bg-dark">
                <div className="container overflow-hidden">
             
                   
@@ -19,8 +19,8 @@ const About = () => {
                     
                     </div>
                    
-                    <Zoom right>
-                    <div className="col-md-6">
+                    <Bounce top cascade>
+                    <div className="col-md-6 text-white">
                        
                         <h1>BEST FOOD SERVICES</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, aliquid obcaecati numquam eaque minus corrupti tempore harum repellat eos ratione reiciendis officiis iusto amet sunt eum molestiae! Iure, illum ipsa!</p>
@@ -28,16 +28,16 @@ const About = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt numquam eveniet maxime minima nobis quis dolores iusto eius, officia nemo quam voluptas voluptatibus consequatur ut.</p>
                         <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae!</h5>
                 </div>
-                </Zoom>
+                </Bounce>
                 <div className="mt-5">
-                        <h1>our client says</h1>
+                        <h1  className="text-warning">OUR TOP CLIENT SAYS</h1>
                         <Bounce> 
                 <div className="row row-cols-1 row-cols-md-4 g-4 mt-3">
                 
-                <div className="col">
+                <div className="col ">
                  <div className="card h-100 bg-dark bg-image hover-zoom">
-                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5TvEjCBG6lzK_o5hGVFEdlo0GOj9vF2_o0Q&usqp=CAU" className="card-img-top" alt="..."/>
-                 <div className="card-body">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5TvEjCBG6lzK_o5hGVFEdlo0GOj9vF2_o0Q&usqp=CAU" className="card-img-top img-fluid" alt="..."/>
+                 <div className="card-body client">
                  <span className="d-flex justify-content-center my-3 star-icons-color text-warning">
 						<i className="fas fa-star"></i>
 						<i className="fas fa-star"></i>
@@ -48,7 +48,7 @@ const About = () => {
 		</span>
 
         <h6 className="text-info">Regina Miles</h6>
-	    <h6 className="text-white">Web Developer</h6>
+	    <h6 className="text-white">Mern- Stack <br /> Web Developer</h6>
       </div>
       <div className="card-footer">
        
@@ -58,8 +58,8 @@ const About = () => {
     
       <div className="col">
       <div className="card h-100 bg-dark bg-image hover-zoom">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXiTCStLMnAqueJZVjbt3ObO72anODdVWzWw&usqp=CAU" className="card-img-top " alt="..."/>
-      <div className="card-body">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXiTCStLMnAqueJZVjbt3ObO72anODdVWzWw&usqp=CAU" className="card-img-top img-fluid" alt="..."/>
+      <div className="card-body client">
       <span className="d-flex justify-content-center my-3 star-icons-color text-warning">
 			         <i className="fas fa-star"></i>
 			         <i className="fas fa-star"></i>
@@ -69,16 +69,16 @@ const About = () => {
 
 	 </span>
 
-      <h6 className="text-info">Regina Miles</h6>
-	  <h6 className="text-white">Web Developer</h6>
+      <h6 className="text-info">Oliver</h6>
+	  <h6 className="text-white">Banker</h6>
       </div>
       
       </div>
       </div>
       <div className="col">
       <div className="card h-100 bg-dark bg-image hover-zoom">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf4nGHEqm-u2clqinStzDtzgJB4D7QCsg3Ag&usqp=CAU" className="card-img-top" alt="..."/>
-      <div className="card-body">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf4nGHEqm-u2clqinStzDtzgJB4D7QCsg3Ag&usqp=CAU" className="card-img-top img-fluid" alt="..."/>
+      <div className="card-body client">
       <span className="d-flex justify-content-center my-3 star-icons-color text-warning">
 					<i className="fas fa-star"></i>
 					<i className="fas fa-star"></i>
@@ -87,16 +87,16 @@ const About = () => {
                     <i className="fa fa-star"></i>
 
 		</span>
-        <h6 className="text-info">Regina Miles</h6>
-		<h6 className="text-white">Web Developer</h6>
+        <h6 className="text-info">JAlebia</h6>
+		<h6 className="text-white">Businessman</h6>
       </div>
      
       </div>
       </div>
       <div className="col">
       <div className="card h-100 bg-dark bg-image hover-zoom">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4FLQPK-VqE1Lid59nC6YtX3kz0YvRwXzgQ&usqp=CAU" className="card-img-top" alt="..."/>
-      <div className="card-body">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4FLQPK-VqE1Lid59nC6YtX3kz0YvRwXzgQ&usqp=CAU" className="card-img-top " alt="..."/>
+      <div className="card-body client">
       <span className="d-flex justify-content-center my-3 star-icons-color text-warning">
 					<i className="fas fa-star"></i>
 					<i className="fas fa-star"></i>
@@ -105,8 +105,8 @@ const About = () => {
                     <i className="fa fa-star"></i>
 
 		</span>
-        <h6 className="text-info">Regina Miles</h6>
-		<h6 className="text-white">Web Developer</h6>
+        <h6 className="text-info">Roma</h6>
+		<h6 className="text-white">Doctor</h6>
       </div>
      
       </div>
@@ -123,11 +123,13 @@ const About = () => {
     <div className="card h-100 bg-image hover-zoom">
       <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/03/pexels-abhinav-goswami-291528-440x250.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Amazing Decadent Pecan PIE Best Cake</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title text-warning">Amazing Decadent Pecan PIE Best Cake</h5>
+        <p className="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
-      <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+       <div className="card-footer d-flex ">
+       <button type="button" className="btn btn-outline-warning px-5">details</button>
+                                 
+        <h4 className="text-muted ps-5"> <i className="fas fa-heart text-danger "> <i className="fas fa-thumbs-up text-primary"> <i className="far fa-comment-alt text-secondary"></i></i></i></h4>
       </div>
     </div>
   </div>
@@ -135,11 +137,13 @@ const About = () => {
     <div className="card h-100 bg-image hover-zoom">
       <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/03/post-3-440x250.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Black Special Hot Suchi With Salad Serving</h5>
+        <h5 className="card-title text-warning">Black Special Hot Suchi With Salad Serving</h5>
         <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       </div>
-      <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+      <div className="card-footer d-flex ">
+       <button type="button" className="btn btn-outline-warning px-5">details</button>
+                                 
+        <h4 className="text-muted ps-5"> <i className="fas fa-heart text-danger "> <i className="fas fa-thumbs-up text-primary"> <i className="far fa-comment-alt text-secondary"></i></i></i></h4>
       </div>
     </div>
   </div>
@@ -147,20 +151,27 @@ const About = () => {
     <div className="card h-100 bg-image hover-zoom">
       <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/03/post-2-1-440x250.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Vegetable & Chicken Wrap For Lunch</h5>
+        <h5 className="card-title text-warning">Vegetable & Chicken Wrap For Lunch</h5>
         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
       </div>
-      <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
+      <div className="card-footer d-flex ">
+       <button type="button" className="btn btn-outline-warning px-5">details</button>
+                                 
+        <h4 className="text-muted ps-5"> <i className="fas fa-heart text-danger "> <i className="fas fa-thumbs-up text-primary"> <i className="far fa-comment-alt text-secondary"></i></i></i></h4>
       </div>
     </div>
   </div>
 </div>
 </Zoom> 
        </div>
-      <div className="">
+      <div className="mt-5">
+      <Bounce right cascade>    
       <h3>TEAM MEMBERS</h3>
-      <h1 className="fw-bold display-5 mt-5 text-warning">Meet Our Best Team</h1>
+      </Bounce>
+      <Bounce left cascade>
+      <h1 className="fw-bold display-5 mt-4 text-warning">Meet Our Best Team</h1>
+      </Bounce>
+      <Bounce>
       <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
     <div className="col">
     <div className="card h-100 bg-image hover-zoom">
@@ -201,12 +212,13 @@ const About = () => {
     </div>
   </div>
 </div>
+</Bounce>
        </div>
       </div>
             
        
-            <div className="mt-5">
-                <h1 className="display-2 fw-bold">FAQ</h1>
+            <div className="faq mt-5">
+                <h1 className="display-3 fw-bold">FAQ</h1><hr />
                 <div className="row ">
                         <div className="second-info col-md-4 col-sm-12 mt-4">
                             <div className="">
@@ -246,7 +258,8 @@ const About = () => {
                        </Bounce>
                     
                        </div>
-                    </div>
+                        </div>
+                        <Fade right>
                     <div className="col-md-8 col-sm-12 mt-5">
                       <div className="information rounded-pill p-3 m-3"><h3>Is it possible to pay by credit card?</h3></div>
                       <div className="information rounded-pill p-3 m-3"><h3>Can I return the product after purchase?</h3></div>
@@ -257,6 +270,7 @@ const About = () => {
                       <div className="information rounded-pill p-3 m-3"><h3>Where and how can I exchange or refund?</h3></div>
                       <div className="information rounded-pill p-3 m-3"><h3>And more options...</h3></div>
                     </div>
+                    </Fade>
             </div>
                 </div>
                 </div>

@@ -7,12 +7,12 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="overflow-hidden">
-      <div className="footer-container mt-5">
+      <div className="footer-container">
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-sm-6">
               <div className="left-container text-start">
-                <h2><i className="fas fa-user-md"></i>HelthCare Agency</h2><br />
+                <h2><i className="fas fa-user-md"></i>FOODOTTTA</h2><br />
                   
                 <p className="mt-4 ">
                   <small>
@@ -55,7 +55,7 @@ const Footer = () => {
                  <h3><i className="fas fa-user-edit"></i>Latest News & tips</h3> <hr />
                  <div className="news">
                <div className="">
-             <h6>Cancer treatment for poor peoples</h6>
+             <h6>Amazing Decadent Pecan PIE Best Cake</h6>
                 <p>01th dec 2021</p>
                 <hr />   
                </div>
