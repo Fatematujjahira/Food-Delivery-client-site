@@ -5,3 +5,23 @@
  border-radius: 50%;
  height: 300px;
 }
+.information{
+    border:2px solid rgb(108, 108, 107);
+    /* border-radius: 50px 20px 50px 10px; */
+    background-color: rgb(254, 254, 254);
+    color: grey;
+    ;
+    
+}
+.information:hover{
+    border:1px solid rgb(255, 220, 45);
+    /* border-radius: 50px 20px 50px 10px; */
+    background-color: rgb(86, 85, 84);
+    color: wheat;
+    box-shadow: 6px 4px 6px 4px rgb(188, 187, 187);
+    transition: 0.5s;
+}
+.second-info{
+    border-right: 1px solid rgb(157, 156, 156);
+    /* background-color: rgba(198, 180, 180, 0.489); */
+}

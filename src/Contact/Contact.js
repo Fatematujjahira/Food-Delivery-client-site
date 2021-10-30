@@ -6,27 +6,27 @@ import img1 from '../assets/banner/aaa.jpg'
 import './Contact.css'
 const Contact = () => {
     return (
-        <div className="container">
+        <div className="container overflow-hidden">
         <div className="contact-section">
-          <h1><i className="far fa-address-book"></i> Connect With Us</h1>
+          <h1 className="mt-5"><i className="far fa-address-book"></i> Contect With Us</h1>
 
         <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 col-sm-12">
           
         <div className="about-image">
               <Slide left>
-              <img className="submit-img w-100 mt-4 pt-4 m-2" src="" alt="" />
+              <img className="submit-img w-100 mt-4 pt-5 mb-5" src="" alt="" />
               </Slide>
         </div>
             
         </div>
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-6 col-sm-12 mt-5">
               <h1 className="display-5">Drop<span className="display-5 fw-bold text-info">  us a Message </span></h1>
               <h4>We’d Love To Hear From You</h4>
              
-        <div className="about-right-section text-start p-2 mt-4">
+        <div className="about-right-section text-start p-2 mt-2">
               <Bounce right >
-    <Form className="mt-3">
+    <Form className="mt-2">
     <Row>
       <Col>
       <Form.Control placeholder="First name" />
@@ -90,7 +90,7 @@ const Contact = () => {
           
            </div>
            
-           <div className="col-md-5 col-sm-12">
+           <div className="col-md-6 col-sm-12">
           
           
            </div>

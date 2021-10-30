@@ -17,13 +17,13 @@ const Banner = () => {
         <Carousel>
         <Carousel.Item className="slider" interval=  {2000}>
      
-    <Zoom>
+    
     <img
       className="d-block w-100 h-100"
       src={img}
       alt="First slide"
     />  
-    </Zoom>  
+
  
       <Carousel.Caption>
               <Bounce left cascade>
@@ -51,13 +51,13 @@ const Banner = () => {
        </Carousel.Caption>
        </Carousel.Item>
        <Carousel.Item className="slider" interval={2000}>
-      <Zoom>
+      
       <img
        className="d-block w-100 h-100"
        src={img1}
        alt="Second slide"
          />
-      </Zoom>
+      
          <Carousel.Caption>
          <Bounce left cascade>
                    <h3 className="text-warning display-5 fw-bold">To take care of your health</h3>
@@ -119,7 +119,7 @@ const Banner = () => {
       
       <img
       className="d-block w-100 h-100"
-      src={img2}
+      src="https://demo.hasthemes.com/aahar-preview/aahar/images/blog/details/3.jpg"
       alt="Third slide"
       />
       

@@ -1,7 +1,17 @@
 .image-one{
-    height: 80vh;
+    height: 70vh;
     border-radius: 15px;
 }
 .single-div{
    box-shadow: 6px 8px 10px; 
 }
+.shadow{
+    
+     background-color: white;
+}
+.shadow:hover{
+    box-shadow: 4px 4px 3px gray;
+     /* border: 1px solid gray; */
+     /* background-color: white; */
+}
+
