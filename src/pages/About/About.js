@@ -30,7 +30,7 @@ const About = () => {
                 </div>
                 </Bounce>
                 <div className="mt-5">
-                        <h1  className="text-warning">OUR TOP CLIENT SAYS</h1>
+                        <h1  className="text-warning">OUR TOP CLIENT SAYS</h1><hr className="text-secondary"/>
                         <Bounce> 
                 <div className="row row-cols-1 row-cols-md-4 g-4 mt-3">
                 
@@ -116,7 +116,7 @@ const About = () => {
       </Bounce> 
       </div>
       <div className="">
-      <h1 className="fw-bold display-5 mt-5 text-warning">Latest Tips And Tricks</h1>
+      <h1 className="fw-bold display-5 mt-5 text-warning">Latest Tips And Tricks</h1><hr className="text-secondary"/>
       <Zoom>
       <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
   <div className="col">
@@ -169,7 +169,7 @@ const About = () => {
       <h3>TEAM MEMBERS</h3>
       </Bounce>
       <Bounce left cascade>
-      <h1 className="fw-bold display-5 mt-4 text-warning">Meet Our Best Team</h1>
+      <h1 className="fw-bold display-5 mt-4 text-warning">Meet Our Best Team</h1><hr className="text-secondary"/>
       </Bounce>
       <Bounce>
       <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">

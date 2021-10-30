@@ -32,8 +32,11 @@ return (
           <Nav.Link as={NavLink} to="/about" className="nav-item text-warning ">
             About
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/shop" className="nav-item text-warning ">
+          <Nav.Link as={NavLink} to="/orders" className="nav-item text-warning ">
             My Order
+          </Nav.Link>
+          <Nav.Link as={NavLink} to="/allOrder" className="nav-item text-warning ">
+            All Order
           </Nav.Link>
           <Nav.Link as={NavLink} to="/recommodation" className="nav-item text-warning">
            Offers
