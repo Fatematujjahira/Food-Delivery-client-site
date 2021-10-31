@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 const Populars = () => {
     const [products, setProducts] = useState([]);
     useEffect(()=>{
-        fetch("http://localhost:5000/allProducts")
+        fetch("https://frightening-goblin-90270.herokuapp.com/allProducts")
         .then(res => res.json())
         .then(data => setProducts(data))
     },[])
@@ -16,7 +16,7 @@ const Populars = () => {
     return ( 
         <div className="overflow-hidden pt-5 bg-dark">
             <Zoom right cascade>
-            <h1 className="text-warning fw-bold text-center  py-5">POPULAR FAST FOODS</h1>
+            <h1 className="text-warning fw-bold text-center banner-title py-5">POPULAR FAST FOODS</h1>
             </Zoom>
             <div className="container pt-2">
             <Row xs={1} md={3} className="g-4">
@@ -30,7 +30,7 @@ const Populars = () => {
                     <Card.Text className="ps-4">
                         {pd.star}
                     </Card.Text>
-                    <Card.Title className="text-warning fw-bold ps-4"><h4>{pd.name}</h4></Card.Title>
+                    <Card.Title className="text-warning fw-bold banner-title ps-4"><h4>{pd.name}</h4></Card.Title>
                     <Card.Title className="ps-4 text-light">Price: {pd?.discription}</Card.Title>
                     <Card.Text >
                     {/* {pd.details.slice(0,120)} */}

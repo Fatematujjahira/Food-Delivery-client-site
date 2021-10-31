@@ -12,7 +12,7 @@ const Details = () => {
     const { user } = useAuth();
     const [product, setProduct] = useState({});
     useEffect(()=>{
-    const url = `http://localhost:5000/singleProduct/${productId}`;
+    const url = `https://frightening-goblin-90270.herokuapp.com/singleProduct/${productId}`;
     fetch(url)
     .then(res => res.json())
     .then(data => setProduct(data))
@@ -27,7 +27,7 @@ const Details = () => {
        data.product_shortdescribe = product?.discription;
        data.status = "pending"
        console.log(data)
-    fetch("http://localhost:5000/addService", {
+    fetch("https://frightening-goblin-90270.herokuapp.com/addService", {
         method: "POST",
         headers: {"content-type" : "application/json"},
         body: JSON.stringify(data)
@@ -43,7 +43,7 @@ const Details = () => {
    } 
     return (
         <div className="details-area bg-dark">
-            <h1 className="text-warning">this is the details: {product.name}</h1>
+            <h1 className="text-warning banner-title">this is the details: {product.name}</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-md-5">

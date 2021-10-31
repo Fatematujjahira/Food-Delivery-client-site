@@ -4,7 +4,7 @@ const ManageAllOrders = () => {
     const [manageOrders, setMangeOrders] = useState([]);
     const [status, setStatus] = useState(true);
     useEffect(()=>{
-        fetch('http://localhost:5000/manageAllOrders')
+        fetch('https://frightening-goblin-90270.herokuapp.com/manageAllOrders')
         .then(res => res.json())
         .then(result => {
             setMangeOrders(result)
@@ -15,7 +15,7 @@ const ManageAllOrders = () => {
     const handleOrderDelete = id =>{
         const proceed = window.confirm("Are you want to delete?")
         if(proceed){
-            const url = `http://localhost:5000/deleteOrder/${ id }`;
+            const url = `https://frightening-goblin-90270.herokuapp.com/deleteOrder/${ id }`;
             fetch(url, {
                 method: "DELETE"
             })
@@ -31,7 +31,7 @@ const ManageAllOrders = () => {
     }
 
     const handleUpdate = (id, index) =>{
-        fetch(`http://localhost:5000/updateOrder/${id}`, {
+        fetch(`https://frightening-goblin-90270.herokuapp.com/updateOrder/${id}`, {
             method: "PUT"
         })
         .then(res => res.json())
@@ -40,7 +40,7 @@ const ManageAllOrders = () => {
     
     return (
         <div className="bg-dark">
-            <h1 className="text-white">MANAGE YOUR ORDERS{}</h1>
+            <h1 className="text-white banner-title">MANAGE YOUR ORDERS{}</h1>
             <div class=" mb-3 container" style={{ maxWidth: "800px" }}>
                 <div >
                     {

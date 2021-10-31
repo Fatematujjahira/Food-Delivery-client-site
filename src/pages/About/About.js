@@ -22,7 +22,7 @@ const About = () => {
                     <Bounce top cascade>
                     <div className="col-md-6 text-white">
                        
-                        <h1>BEST FOOD SERVICES</h1>
+                        <h1>BEST FOOD SERVICES <i className="fas fa-check text-success"></i></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, aliquid obcaecati numquam eaque minus corrupti tempore harum repellat eos ratione reiciendis officiis iusto amet sunt eum molestiae! Iure, illum ipsa!</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam officia vel aliquid sequi similique!</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt numquam eveniet maxime minima nobis quis dolores iusto eius, officia nemo quam voluptas voluptatibus consequatur ut.</p>
@@ -30,7 +30,7 @@ const About = () => {
                 </div>
                 </Bounce>
                 <div className="mt-5">
-                        <h1  className="text-warning">OUR TOP CLIENT SAYS</h1><hr className="text-secondary"/>
+                        <h1  className="text-warning banner-title">OUR TOP CLIENT SAYS <i class="fas fa-user-edit"></i></h1><hr className="text-secondary"/>
                         <Bounce> 
                 <div className="row row-cols-1 row-cols-md-4 g-4 mt-3">
                 
@@ -116,7 +116,7 @@ const About = () => {
       </Bounce> 
       </div>
       <div className="">
-      <h1 className="fw-bold display-5 mt-5 text-warning">Latest Tips And Tricks</h1><hr className="text-secondary"/>
+      <h1 className="fw-bold display-5 mt-5 text-warning banner-title">Latest Tips And Tricks <i class="fas fa-edit"></i></h1><hr className="text-secondary"/>
       <Zoom>
       <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
   <div className="col">
@@ -169,7 +169,7 @@ const About = () => {
               <h3 className="text-warning">TEAM MEMBERS</h3>
               </Bounce>
               <Bounce left cascade>
-              <h1 className="fw-bold display-5 mt-4 text-warning">Meet Our Best Team</h1><hr className="text-secondary mx-auto w-75"/>
+              <h1 className="fw-bold display-5 mt-4 text-warning banner-title">Meet Our Best Team <i class="fas fa-users"></i></h1><hr className="text-secondary mx-auto w-75"/>
               </Bounce>
       <Bounce>
       <div className="row row-cols-1 row-cols-md-3 g-4 mt-3 ">
@@ -218,7 +218,7 @@ const About = () => {
             
        
                      <div className="faq mt-5">
-                     <h1 className="display-3 fw-bold">FAQ</h1><hr />
+                     <h1 className="display-3 fw-bold banner-title">FAQ</h1><hr />
                            <div className="row ">
                             <div className="second-info col-md-4 col-sm-12 mt-4">
                             <div className="">
@@ -261,14 +261,14 @@ const About = () => {
                         </div>
                         <Fade right>
                     <div className="col-md-8 col-sm-12 mt-5 mb-3">
-                      <div className="information p-3 m-3"><h3>Is it possible to pay by credit card?</h3></div>
-                      <div className="information p-3 m-3"><h3>Can I return the product after purchase?</h3></div>
-                      <div className="information p-3 m-3"><h3>How do I use a promotional code?</h3></div>
-                      <div className="information p-3 m-3"><h3>What if the prepaid goods are not delivered?</h3></div>
-                      <div className="information p-3 m-3"><h3>Is it possible to pay by credit card?</h3></div>
-                      <div className="information p-3 m-3"><h3>Where and how can I exchange or refund?</h3></div>
-                      <div className="information p-3 m-3"><h3>Where and how can I exchange or refund?</h3></div>
-                      <div className="information p-3 m-3"><h3>And more options...</h3></div>
+                      <div className="information p-3 m-3"><h3>Is it possible to pay by credit card?<i className="fas fa-check text-success"></i></h3></div>
+                      <div className="information p-3 m-3"><h3>Can I return the product after purchase?<i className="fas fa-check text-success"></i></h3></div>
+                      <div className="information p-3 m-3"><h3>How do I use a promotional code?<i className="fas fa-check text-success"></i></h3></div>
+                      <div className="information p-3 m-3"><h3>What if the prepaid goods are not delivered?<i className="fas fa-check text-success"></i></h3></div>
+                      <div className="information p-3 m-3"><h3>Is it possible to pay by credit card?<i className="fas fa-check text-success"></i></h3></div>
+                      <div className="information p-3 m-3"><h3>Where and how can I exchange or refund?<i className="fas fa-check text-success"></i></h3></div>
+                      <div className="information p-3 m-3"><h3>Where and how can I exchange or refund?<i className="fas fa-check text-success"></i></h3></div>
+                      <div className="information p-3 m-3"><h3>And more options...<i className="fas fa-check text-success"></i></h3></div>
                     </div>
                     </Fade>
             </div>

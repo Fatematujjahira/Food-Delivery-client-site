@@ -14,6 +14,6 @@
     border-radius: 1px solid tomato;
     transition: 0.5s;
 }
-.slider{
-    /* height: 100vh; */
+.banner-title{
+    font-family: cursive;
 }

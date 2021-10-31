@@ -64,7 +64,7 @@ const Contact = () => {
     
     <div className="row">
       <div className="col-md-6 col-sm-12">
-      <div className="about-right-section text-start p-3 ">
+      <div className="about-right-section text-start p-3 banner-title">
           <Bounce right>
           <h4 className=""><span className="display-6 text-white">Why Choose</span>
             <span className="text-warning display-5 fw-bold"> Us,</span> <br />

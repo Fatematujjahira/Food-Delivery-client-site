@@ -26,9 +26,7 @@ return (
           <Nav.Link as={NavLink} to="/home" className="nav-item text-warning ">
             Home
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/service" className="nav-item text-warning ">
-           Service
-          </Nav.Link>
+        
           <Nav.Link as={NavLink} to="/recommodation" className="nav-item text-warning">
           Offers
           </Nav.Link>

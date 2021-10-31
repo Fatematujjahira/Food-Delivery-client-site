@@ -8,7 +8,7 @@ const Recommodation = () => {
         <div className="bg-dark">
          <div className="container ">
                <Bounce bottom>
-                <h1 className=" fw-bold text-warning ">SPECIALL DISCOUNT FOR REGULER CUSTOMER</h1>
+                <h1 className=" fw-bold text-warning banner-title ">SPECIALL DISCOUNT FOR REGULER CUSTOMER</h1>
                 </Bounce>
                 <div className="row row-cols-1 row-cols-md-2 g-4">
               <Bounce left>
@@ -60,7 +60,7 @@ const Recommodation = () => {
        
            <div className="container mt-5"> 
            <Bounce left>
-            <h1 className="text-warning">Super Pizza Deal</h1><i class="fas fa-pizza-slice"></i><hr className="text-secondary"/>
+            <h1 className="text-warning banner-title">Super Pizza Deal <i class="fas fa-pizza-slice"></i></h1><hr className="text-secondary"/>
             </Bounce>
             <Bounce>
             <div className="row row-cols-1 row-cols-md-3 g-3 mt-5">
@@ -107,7 +107,7 @@ const Recommodation = () => {
 
         <Bounce>
                 <div className="container mt-5">
-                    <h1 className=" text-warning">Super Delicious Deal<i className="fal fa-burger-soda text-warning"></i></h1><hr className="text-secondary"/>
+                    <h1 className=" text-warning banner-title">Super Delicious Deal <i class="fas fa-hamburger"></i></h1><hr className="text-secondary"/>
                 <div className=" row row-cols-1 row-cols-md-3 mt-5 ">
                     <div className="card bg-image shadow hover-zoom">
                     <div claasName="col-md-4">

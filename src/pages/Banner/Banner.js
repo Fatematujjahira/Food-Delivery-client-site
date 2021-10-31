@@ -27,7 +27,7 @@ const Banner = () => {
  
       <Carousel.Caption>
               <Bounce left cascade>
-              <h3 className="text-white display-5 fw-bold ">We always put the patients first</h3>
+              <h3 className="banner-title text-white display-5 fw-bold ">Giving your Hunger a new Option</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </Bounce>
       <div className=" d-flex justify-content-center ">      
@@ -60,7 +60,7 @@ const Banner = () => {
       
          <Carousel.Caption>
          <Bounce left cascade>
-                   <h3 className="text-warning display-5 fw-bold">To take care of your health</h3>
+                   <h3 className="banner-title banner-title text-warning display-5 fw-bold">Good Food for Good Moments</h3>
            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Bounce>
            <div className=" d-flex justify-content-center ">      
@@ -84,16 +84,16 @@ const Banner = () => {
       </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="slider">
-     <Zoom>
+     
      <img
       className="d-block w-100 h-100"
       src={img3}
       alt="Third slide"
       />                
-     </Zoom>
+     
        <Carousel.Caption>
        <Bounce left cascade>
-       <h3 className="text-white display-5 fw-bold">First slide label</h3>
+       <h3 className=" banner-title text-white display-5 fw-bold">Your Favourite Food delivery Partner</h3>
        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
        </Bounce>
        <div className=" d-flex justify-content-center ">      
@@ -119,14 +119,14 @@ const Banner = () => {
       
       <img
       className="d-block w-100 h-100"
-      src="https://demo.hasthemes.com/aahar-preview/aahar/images/blog/details/3.jpg"
+      src="https://images.pexels.com/photos/7706590/pexels-photo-7706590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
       alt="Third slide"
       />
       
        <Carousel.Caption>
        <Bounce left cascade>
-       <h3 className="text-white display-5 fw-bold">First slide label</h3>
-       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+       <h3 className="banner-title text-warning display-5 fw-bold">Desire meets a new Food</h3>
+       <p className="text-dark">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
        </Bounce>
        <div className=" d-flex justify-content-center ">      
                 <Bounce>
@@ -157,7 +157,7 @@ const Banner = () => {
    
        <Carousel.Caption>
        <Bounce left cascade>
-       <h3 className="text-white display-5 fw-bold">First slide label</h3>
+       <h3 className="banner-title text-white display-5 fw-bold">Best Service to fulfil your expectations.</h3>
        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
        </Bounce>
        <div className=" d-flex justify-content-center ">      
@@ -189,7 +189,7 @@ const Banner = () => {
      </Zoom>
        <Carousel.Caption>
        <Bounce top cascade>
-       <h3 className="text-white display-5 fw-bold">First slide label</h3>
+       <h3 className="text-white display-5 fw-bold banner-title">First slide label</h3>
        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
        </Bounce>
        <div className=" d-flex justify-content-center ">      

@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-3 col-sm-6">
               <div className="left-container text-start">
-                <h2><i className="fas fa-user-md"></i>FOODOTTTA</h2><br />
+                <h2><i class="fas fa-hamburger"></i>FOODOTTTA</h2><br />
                   
                 <p className="mt-4 ">
                   <small>

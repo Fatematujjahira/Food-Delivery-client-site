@@ -1,17 +1,17 @@
 .bg-img{
         
             
-    height: 80vh;
+   /*  height: 80vh;
     width: 100%;
     background-image: url("https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"),
-      linear-gradient(rgb(60, 116, 200), rgb(247, 69, 102));
+      linear-gradient(rgb(34, 34, 35), rgb(67, 66, 67));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: relative;*/
     font-family: cursive;   
-}
+} 
 .header-1{
     font-size: 50px;
     
