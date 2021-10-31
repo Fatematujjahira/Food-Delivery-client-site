@@ -180,13 +180,13 @@ const Banner = () => {
       </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="slider">
-       <Zoom >
-                    <img
+      
+       <img
       className="d-block w-100 h-100"
       src={img5}
       alt="Third slide"
       />
-     </Zoom>
+     
        <Carousel.Caption>
        <Bounce top cascade>
        <h3 className="text-white display-5 fw-bold banner-title">First slide label</h3>
