@@ -43,15 +43,15 @@ const Details = () => {
    } 
     return (
         <div className="details-area bg-dark">
-            <h1 className="text-warning banner-title">this is the details: {product.name}</h1>
-            <div className="container">
+            <h1 className="text-warning banner-title ">this is the details: {product.name}</h1>
+            <div className="container mt-5 p-2 ">
                 <div className="row">
                     <div className="col-sm-12 col-md-5">
                     <CardGroup>
-                        <Card>
+                        <Card className="mb-5">
                             <Card.Img height="400px" variant="top" src={product.img} />
                             <Card.Body>
-                            <Card.Title>{product.name}</Card.Title>
+                            <Card.Title className="border border-1 bg-warning text-light p-2">{product.name}</Card.Title>
                             <Card.Title>{product.price}</Card.Title>
                             <Card.Text>
                                {product.discription}
@@ -64,11 +64,11 @@ const Details = () => {
                     </div>
                     <div className="col-sm-12 col-md-5 ">
                     <form className="" onSubmit={handleSubmit(onSubmit)}>
-                    <input  {...register("name", )} placeholder="name" /> <br />
-                    <input type="email"{...register("email")} placeholder="email"/> <br /> 
-                    <input type="number"{...register("number")} placeholder="number"/> <br /> 
-                    <input type="address"{...register("address")} placeholder="address"/> <br /> 
-                    <input type="submit" />
+                    <input  className="m-1 p-2 w-100 " {...register("name", )} placeholder="Name" /> <br />
+                    <input className="m-1 p-2 w-100" type="email"{...register("email")} placeholder="email"/> <br /> 
+                    <input className="m-1 p-2 w-100" type="number"{...register("number")} placeholder="number"/> <br /> 
+                    <input className="m-1 p-2 w-100" type="address"{...register("address")} placeholder="address"/> <br /> 
+                    <input className="m-1 px-4 p-2 bg-warning text-light border border-2 "type="submit" />
                     </form>
                     </div>
                 </div>

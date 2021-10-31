@@ -13,7 +13,7 @@ const { displayName, photoURL, email } = user;
 return (
 
     <div className="">
-    <Navbar expand="lg" className="bg-dark fixed-top">
+    <Navbar expand="lg" className="bg-dark ">
     <Container>
       <Navbar.Brand as={NavLink}        className="text-white" to="/home">
         <img width="70px" height="60px"

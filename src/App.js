@@ -17,6 +17,7 @@ import Contact from './Contact/Contact';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import Details from './component/Details/Details';
 import ManageAllOrders from './component/ManageAllOrders/ManageAllOrders';
+import Notfound from './pages/NotFound/Notfound';
 // import { DEVICE_SIZES } from 'react-bootstrap/esm/createUtilityClasses';
 function App() {
   return (
@@ -58,7 +59,10 @@ function App() {
             </PrivateRoute>
         <Route exact path="/signup">
             <Signup></Signup>
-         </Route>
+            </Route>
+            <Route path="*">
+           <Notfound></Notfound>
+          </Route>
         </Switch>
         <Footer></Footer>
       </BrowserRouter>
