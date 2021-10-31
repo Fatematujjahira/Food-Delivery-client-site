@@ -21,7 +21,7 @@ const Details = () => {
    const { register, handleSubmit, reset } = useForm();
    const onSubmit = data => {
        data.product = product;
-       data.email = user?.email;
+      
        data.product_name = product?.name;
        data.product_image = product?.image;
        data.product_shortdescribe = product?.discription;
