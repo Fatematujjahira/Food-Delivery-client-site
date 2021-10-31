@@ -6,7 +6,7 @@ import { NavLink } from 'react-bootstrap';
 const Services = () => {
     return (
         <div className="bg-dark">
-            <div className=" container overflow-hidden bg-dark  ">
+            <div className=" container overflow-hidden title-2  ">
                 <h1 className="text-white mt-5 p-4">Safe & easy payment options</h1><hr className="text-secondary w-100"/>
             <Bounce>
             <div className="bg-img">
