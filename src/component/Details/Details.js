@@ -42,7 +42,7 @@ const Details = () => {
 
    } 
     return (
-        <div className="details-area bg-dark">
+        <div className="details-area bg-dark ">
             <h1 className="text-warning banner-title ">this is the details: {product.name}</h1>
             <div className="container mt-5 p-2 ">
                 <div className="row">
@@ -64,11 +64,11 @@ const Details = () => {
                     </div>
                     <div className="col-sm-12 col-md-5 ">
                     <form className="" onSubmit={handleSubmit(onSubmit)}>
-                    <input  className="m-1 p-2 w-100 " {...register("name", )} placeholder="Name" /> <br />
-                    <input className="m-1 p-2 w-100" type="email"{...register("email")} placeholder="email"/> <br /> 
-                    <input className="m-1 p-2 w-100" type="number"{...register("number")} placeholder="number"/> <br /> 
-                    <input className="m-1 p-2 w-100" type="address"{...register("address")} placeholder="address"/> <br /> 
-                    <input className="m-1 px-4 p-2 bg-warning text-light border border-2 "type="submit" />
+                    <input  className=" " {...register("name", )} placeholder="Name" /> <br />
+                    <input className="" type="email"{...register("email")} placeholder="email"/> <br /> 
+                    <input className="" type="number"{...register("number")} placeholder="number"/> <br /> 
+                    <input className="" type="address"{...register("address")} placeholder="address"/> <br /> 
+                    <input className="bg-warning text-light border border-2 "type="submit" />
                     </form>
                     </div>
                 </div>

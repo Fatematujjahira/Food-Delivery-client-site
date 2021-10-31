@@ -20,7 +20,7 @@ const MyOrders = () => {
         })
     },[myOrders])
     return (
-        <div className="my-order bg-dark">
+        <div className="my-order bg-dark overflow-hidden">
             <h1 className="text-center text-white">GET YOUR ORDERS</h1>
             <Row xs={1} md={4} className="g-4">
             {
