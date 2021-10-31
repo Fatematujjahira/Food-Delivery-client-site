@@ -1,7 +1,8 @@
 # Project: HealthCare Website
 
-Description: Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
+Description: Now, Due to Technology Enhancement Food is also Online. Food ordering and delivery is a new online business idea that has evolved with technology.
 
+Food Delivery is a thriving business and there are many opportunities for this Business as it Grows. Food delivery Business Caterers the Customers through delivering Food at their Doorstep easily.
 #
 
 Live Site Link: https://food-delivery-e2c93.web.app/
