@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import logo from '../../assets/banner/Food-Logo-Design.jpg'
+import logo from '../../assets/banner/download-removebg-preview.jpg'
 import useAuth from '../../hooks/useAuth';
 // import { HashLink } from "react-router-hash-link";
 import './Header.css'
