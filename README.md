@@ -13,3 +13,5 @@ Technology we use to build this project:
 - Bootstrap
 - React FontAwesome
 - Firebase
+- Heroko
+- MongoDb
