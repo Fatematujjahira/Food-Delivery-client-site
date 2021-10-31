@@ -29,17 +29,19 @@ return (
           <Nav.Link as={NavLink} to="/service" className="nav-item text-warning ">
            Service
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/about" className="nav-item text-warning ">
-            About
+          <Nav.Link as={NavLink} to="/recommodation" className="nav-item text-warning">
+          Offers
+          </Nav.Link>
+          <Nav.Link as={NavLink} to="/allOrder" className="nav-item text-warning ">
+          All Order
           </Nav.Link>
           <Nav.Link as={NavLink} to="/orders" className="nav-item text-warning ">
             My Order
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/allOrder" className="nav-item text-warning ">
-            All Order
-          </Nav.Link>
-          <Nav.Link as={NavLink} to="/recommodation" className="nav-item text-warning">
-           Offers
+         
+         
+           <Nav.Link as={NavLink} to="/about" className="nav-item text-warning ">
+            About
           </Nav.Link>
           <Nav.Link as={NavLink} to="/contact" className="nav-item text-warning">
             Contact

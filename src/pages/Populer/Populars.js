@@ -3,6 +3,7 @@ import { Button, Card, CardGroup, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Populers.css';
 import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 const Populars = () => {
     const [products, setProducts] = useState([]);
@@ -14,7 +15,9 @@ const Populars = () => {
 
     return ( 
         <div className="overflow-hidden pt-5 bg-dark">
-            <h1 className="text-light fw-bold text-center py-5">POPULAR <span className="all-clr">FAST FOODS</span></h1>
+            <Zoom right cascade>
+            <h1 className="text-warning fw-bold text-center  py-5">POPULAR FAST FOODS</h1>
+            </Zoom>
             <div className="container pt-2">
             <Row xs={1} md={3} className="g-4">
                 {
@@ -33,7 +36,7 @@ const Populars = () => {
                     {/* {pd.details.slice(0,120)} */}
                     </Card.Text>
                     </Card.Body>
-                    <Card.Text>
+                    <Card.Text> <hr className="text-secondary w-75 mx-auto" />
                     <Button className="btn btn-danger ms-2 m mb-5">Add To Cart</Button>
                     <Link to={`/details/${pd._id}`}><Button className="btn btn-primary ms-2 d-btn mb-5">Details</Button></Link>
                     </Card.Text>

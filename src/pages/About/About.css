@@ -8,24 +8,26 @@
 .information{
     border:1px solid rgb(255, 220, 45);
     /* border-radius: 50px 20px 50px 10px; */
-    background-color: rgb(113, 112, 110);
     color: wheat;
+    background-color: rgb(86, 85, 84);
+   
     
 }
 .information:hover{
-    border:1px solid rgb(255, 220, 45);
+    border:2px solid rgb(125, 122, 122);
     /* border-radius: 50px 20px 50px 10px; */
-    background-color: rgb(86, 85, 84);
-    color: wheat;
-    box-shadow: 6px 4px 6px 4px rgb(188, 187, 187);
+    color: rgb(81, 80, 79);
+    background-color: rgb(255, 255, 255);
+   
+    box-shadow: 6px 4px 6px 4px rgb(77, 77, 77);
     transition: 0.5s;
 }
 .second-info{
-    border-right: 1px solid rgb(157, 156, 156);
+    border-right: 1px solid rgb(111, 111, 111);
     /* background-color: rgba(198, 180, 180, 0.489); */
 }
 .faq{
-    background-color: rgba(239, 235, 235, 0.914);
+    background-color: rgba(236, 249, 255, 0.961);
 }
 .client{
     border: 1px solid rgb(70, 70, 69);

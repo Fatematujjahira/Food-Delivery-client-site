@@ -1,7 +1,7 @@
 import React from 'react';
 import img from '../../assets/banner/img-1 (1).jpg'
 import img1 from '../../assets/banner/img13 (1).jpg'
-import img2 from '../../assets/banner/img5.jpg'
+// import logo from '../../assets/banne'
 import img3 from '../../assets/banner/img13 (2).jpg'
 import img4 from '../../assets/banner/img-1 (9).jpg'
 import img5 from '../../assets/banner/img-1 (7).jpg'
@@ -27,7 +27,7 @@ const Banner = () => {
  
       <Carousel.Caption>
               <Bounce left cascade>
-              <h3 className="text-warning display-5 fw-bold ">We always put the patients first</h3>
+              <h3 className="text-white display-5 fw-bold ">We always put the patients first</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </Bounce>
       <div className=" d-flex justify-content-center ">      
@@ -93,7 +93,7 @@ const Banner = () => {
      </Zoom>
        <Carousel.Caption>
        <Bounce left cascade>
-       <h3 className="text-warning display-5 fw-bold">First slide label</h3>
+       <h3 className="text-white display-5 fw-bold">First slide label</h3>
        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
        </Bounce>
        <div className=" d-flex justify-content-center ">      
@@ -125,7 +125,7 @@ const Banner = () => {
       
        <Carousel.Caption>
        <Bounce left cascade>
-       <h3 className="text-warning display-5 fw-bold">First slide label</h3>
+       <h3 className="text-white display-5 fw-bold">First slide label</h3>
        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
        </Bounce>
        <div className=" d-flex justify-content-center ">      
@@ -157,7 +157,7 @@ const Banner = () => {
    
        <Carousel.Caption>
        <Bounce left cascade>
-       <h3 className="text-warning display-5 fw-bold">First slide label</h3>
+       <h3 className="text-white display-5 fw-bold">First slide label</h3>
        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
        </Bounce>
        <div className=" d-flex justify-content-center ">      
@@ -189,7 +189,7 @@ const Banner = () => {
      </Zoom>
        <Carousel.Caption>
        <Bounce top cascade>
-       <h3 className="text-warning display-5 fw-bold">First slide label</h3>
+       <h3 className="text-white display-5 fw-bold">First slide label</h3>
        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
        </Bounce>
        <div className=" d-flex justify-content-center ">      

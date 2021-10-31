@@ -18,11 +18,12 @@ const Signup = () => {
     AllContexts;
 
   return (
-    <div className="signup text-center my-4 text-white">
+    <div className="signup text-center text-white">
       <h2>Please Sign Up</h2>
       <p className=" mt-2 text-white">Sign Up with Email & Password</p>
       <p className="text-danger text-center">{error}</p>
-      <div className="w-25 mx-auto">
+      <div className="sign-up w-25 p-5 mx-auto">
+
         <Form onSubmit={singUp}>
           <Row>
             <Col className="text-start">

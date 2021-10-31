@@ -1,4 +1,5 @@
 import React from "react";
+import './login.css';
 import { Col, Form, FormControl, InputGroup, Row } from "react-bootstrap";
 import useAuth from "../../hooks/useAuth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,7 +8,7 @@ import { NavLink, useLocation, useHistory } from "react-router-dom";
 import google from "../../assets/images/google.png";
 import facebook from "../../assets/images/facebook.png";
 import github from "../../assets/images/github.png";
-
+import Bounce from "react-reveal/Bounce";
 const Login = () => {
   const { AllContexts } = useAuth();
   const history = useHistory();
@@ -28,11 +29,17 @@ const Login = () => {
   } = AllContexts;
 
   return (
-    <div className="text-center my-4">
-      <h2>Please Login</h2>
-      <p className=" mt-2">Login with Email & Password</p>
+    <div className="text-center login-section">
+      <Bounce left>
+      <div className=" login-backgroud">
+      <h2 className=" text-warning">Please Login</h2>
+      <p className=" mt-3 text-light">Login with Email & Password</p>
       <p className="text-danger text-center">{error}</p>
+      </div>
+      </Bounce>
+     
       <div className="w-25 mx-auto">
+      <Bounce right>
         <Form
           onSubmit={ (e) =>
           {
@@ -88,22 +95,32 @@ const Login = () => {
             </Col>
           </Row>
 
-          <button type="submit" className="btn btn-primary mt-2 w-100">
+          <button type="submit" className="btn btn-primary mt-2 w-25">
             Login
           </button>
              </Form>
+             </Bounce>
               </div>
-      <p className="mt-2">
+           
+        <p className="mt-2">
+       
         <NavLink className="text-decoration-none" to="/signup">
-          Need an Account? Please Sign up!
+        <Bounce right cascade>   
+          <p className="text-warning">Need an Account? Please Sign up!</p>
+          </Bounce>   
         </NavLink>
-        <br />
+       
+          
         <NavLink className="text-decoration-none" to="/reset">
-          Forget password? Reset!
+        <Bounce right cascade> 
+         <h6 className="text-danger"> Forget password? Reset!</h6>
+         </Bounce>
         </NavLink>
+        
          </p>
-         <p className="mt-3">Or</p>
-         <p> Login with</p>
+         
+         <p className="mt-3 text-white">Or</p>
+         <p className="text-white"> Login with</p>
          <div>
          <button
           onClick={() => {
@@ -118,7 +135,7 @@ const Login = () => {
           }}
           className="btn"
         >
-          <img src={google} width="46px" alt="google-icon" />
+          <img src={google} className="bg-white rounded-circle" width="46px" alt="google-icon" />
         </button>
         <button
           onClick={() => {
@@ -133,7 +150,7 @@ const Login = () => {
           }}
           className="btn"
            >
-          <img width="50px" src={facebook} alt="facebook-icon" />
+          <img width="50px" className="bg-white rounded-circle" src={facebook} alt="facebook-icon" />
            </button>
            <button
           onClick={() => {
@@ -148,10 +165,11 @@ const Login = () => {
           }}
           className="btn"
         >
-          <img width="55px" src={github} alt="github-icon" />
+          <img width="55px" className="bg-white rounded-circle" src={github} alt="github-icon" />
           </button>
           </div>
-          </div>
+     </div>
+         
   );
 };
 

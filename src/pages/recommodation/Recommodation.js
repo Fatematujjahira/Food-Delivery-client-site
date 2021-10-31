@@ -44,7 +44,7 @@ const Recommodation = () => {
            </div>
            </div>
            </Bounce>
-           <Bounce bottom>
+           <Bounce >
            <div className="col">
            <div className="card bg-image hover-zoom">
            <img className="image-one w-100 " src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?  auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
@@ -60,7 +60,7 @@ const Recommodation = () => {
        
            <div className="container mt-5"> 
            <Bounce left>
-            <h1 className="text-warning">Super Pizza Deal</h1><hr className="text-secondary"/>
+            <h1 className="text-warning">Super Pizza Deal</h1><i class="fas fa-pizza-slice"></i><hr className="text-secondary"/>
             </Bounce>
             <Bounce>
             <div className="row row-cols-1 row-cols-md-3 g-3 mt-5">
@@ -107,7 +107,7 @@ const Recommodation = () => {
 
         <Bounce>
                 <div className="container mt-5">
-                    <h1 className=" text-warning">Super Delicious Deal</h1><hr className="text-secondary"/>
+                    <h1 className=" text-warning">Super Delicious Deal<i className="fal fa-burger-soda text-warning"></i></h1><hr className="text-secondary"/>
                 <div className=" row row-cols-1 row-cols-md-3 mt-5 ">
                     <div className="card bg-image shadow hover-zoom">
                     <div claasName="col-md-4">

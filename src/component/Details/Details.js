@@ -24,7 +24,7 @@ const Details = () => {
        data.email = user?.email;
        data.product_name = product?.name;
        data.product_image = product?.image;
-       data.product_shortdescribe = product?.shortdescribe;
+       data.product_shortdescribe = product?.discription;
        data.status = "pending"
        console.log(data)
     fetch("http://localhost:5000/addService", {
@@ -42,8 +42,8 @@ const Details = () => {
 
    } 
     return (
-        <div className="details-area">
-            <h1>this is the details: {product.name}</h1>
+        <div className="details-area bg-dark">
+            <h1 className="text-warning">this is the details: {product.name}</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-md-5">
@@ -54,7 +54,7 @@ const Details = () => {
                             <Card.Title>{product.name}</Card.Title>
                             <Card.Title>{product.price}</Card.Title>
                             <Card.Text>
-                               {product.details}
+                               {product.discription}
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -62,12 +62,12 @@ const Details = () => {
                         </Card>
                     </CardGroup>
                     </div>
-                    <div className="col-sm-12 col-md-5">
-                    <form onSubmit={handleSubmit(onSubmit)}>
+                    <div className="col-sm-12 col-md-5 ">
+                    <form className="" onSubmit={handleSubmit(onSubmit)}>
                     <input  {...register("name", )} placeholder="name" /> <br />
-                    <input type="email"{...register("email")} placeholder="email"/> <br />
-                    <input type="number"{...register("number")} placeholder="number"/> <br />
-                    <input type="address"{...register("address")} placeholder="address"/> <br />
+                    <input type="email"{...register("email")} placeholder="email"/> <br /> 
+                    <input type="number"{...register("number")} placeholder="number"/> <br /> 
+                    <input type="address"{...register("address")} placeholder="address"/> <br /> 
                     <input type="submit" />
                     </form>
                     </div>

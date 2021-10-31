@@ -39,8 +39,8 @@ const ManageAllOrders = () => {
     }
     
     return (
-        <div>
-            <h1>MANAGE YOUR ORDERS{}</h1>
+        <div className="bg-dark">
+            <h1 className="text-white">MANAGE YOUR ORDERS{}</h1>
             <div class=" mb-3 container" style={{ maxWidth: "800px" }}>
                 <div >
                     {
@@ -51,7 +51,7 @@ const ManageAllOrders = () => {
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">{orders?.name}</h5>
+                                        <h5 class="card-title text-white">{orders?.name}</h5>
                                         <p class="card-text">{orders?.service_shortdescribe}</p>
                                         {orders.status === "pending" ? <h5 class="card-text"><small class="text-danger">{orders?.status}</small></h5>:<h5 class="card-text"><small class="text-success">{orders?.status}</small></h5>}
                                         <h6 className="text-success">E-mail: {orders?.email}</h6>

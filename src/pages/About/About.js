@@ -120,131 +120,131 @@ const About = () => {
       <Zoom>
       <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
   <div className="col">
-    <div className="card h-100 bg-image hover-zoom">
+    <div className="card h-100 bg-image hover-zoom bg-dark border border-1">
       <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/03/pexels-abhinav-goswami-291528-440x250.jpg" className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title text-warning">Amazing Decadent Pecan PIE Best Cake</h5>
-        <p className="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+      <div className="card-body bg-dark">
+        <h5 className="card-title text-info">Amazing Decadent Pecan PIE Best Cake</h5>
+        <p className="card-text text-white ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div><hr className="text-info mx-auto w-75"/>
        <div className="card-footer d-flex ">
-       <button type="button" className="btn btn-outline-warning px-5">details</button>
+       <button type="button" className="btn btn-outline-info px-5">details</button>
                                  
         <h4 className="text-muted ps-5"> <i className="fas fa-heart text-danger "> <i className="fas fa-thumbs-up text-primary"> <i className="far fa-comment-alt text-secondary"></i></i></i></h4>
       </div>
     </div>
-  </div>
-  <div className="col">
-    <div className="card h-100 bg-image hover-zoom">
-      <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/03/post-3-440x250.jpg" className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title text-warning">Black Special Hot Suchi With Salad Serving</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div className="card-footer d-flex ">
-       <button type="button" className="btn btn-outline-warning px-5">details</button>
+           </div>
+           <div className="col">
+           <div className="card h-100 bg-image hover-zoom bg-dark border border-1">
+             <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/03/post-3-440x250.jpg" className="card-img-top" alt="..."/>
+            <div className="card-body bg-dark">
+            <h5 className="card-title text-info">Black Special Hot Suchi With Salad Serving</h5>
+           <p className="card-text text-white">This card has supporting text below as a natural lead-in to additional content.</p>
+           </div>
+           <div className="card-footer d-flex ">
+           <button type="button" className="btn btn-outline-info px-5">details</button>
                                  
-        <h4 className="text-muted ps-5"> <i className="fas fa-heart text-danger "> <i className="fas fa-thumbs-up text-primary"> <i className="far fa-comment-alt text-secondary"></i></i></i></h4>
-      </div>
-    </div>
-  </div>
-  <div className="col">
-    <div className="card h-100 bg-image hover-zoom">
-      <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/03/post-2-1-440x250.jpg" className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title text-warning">Vegetable & Chicken Wrap For Lunch</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div className="card-footer d-flex ">
-       <button type="button" className="btn btn-outline-warning px-5">details</button>
+           <h4 className="text-muted ps-5"> <i className="fas fa-heart text-danger "> <i className="fas fa-thumbs-up text-primary"> <i className="far fa-comment-alt text-secondary"></i></i></i></h4>
+            </div>
+            </div>
+            </div>
+            <div className="col">
+            <div className="card h-100 bg-image hover-zoom bg-dark border border-1">
+            <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/03/post-2-1-440x250.jpg" className="card-img-top" alt="..."/>
+            <div className="card-body bg-dark">
+             <h5 className="card-title text-info">Vegetable & Chicken Wrap For Lunch</h5>
+             <p className="card-text text-white">This is a wider card with supporting text below as a natural lead-in to .</p>
+             </div>
+             <div className="card-footer d-flex ">
+              <button type="button" className="btn btn-outline-info px-5">details</button>
                                  
-        <h4 className="text-muted ps-5"> <i className="fas fa-heart text-danger "> <i className="fas fa-thumbs-up text-primary"> <i className="far fa-comment-alt text-secondary"></i></i></i></h4>
-      </div>
-    </div>
-  </div>
-</div>
-</Zoom> 
-       </div>
-      <div className="mt-5">
-      <Bounce right cascade>    
-      <h3>TEAM MEMBERS</h3>
-      </Bounce>
-      <Bounce left cascade>
-      <h1 className="fw-bold display-5 mt-4 text-warning">Meet Our Best Team</h1><hr className="text-secondary"/>
-      </Bounce>
+              <h4 className="text-muted ps-5"> <i className="fas fa-heart text-danger "> <i className="fas fa-thumbs-up text-primary"> <i className="far fa-comment-alt text-secondary"></i></i></i></h4>
+              </div>
+              </div>
+              </div>
+              </div>
+              </Zoom> 
+              </div>
+              <div className="mt-5 ">
+              <Bounce right cascade>    
+              <h3 className="text-warning">TEAM MEMBERS</h3>
+              </Bounce>
+              <Bounce left cascade>
+              <h1 className="fw-bold display-5 mt-4 text-warning">Meet Our Best Team</h1><hr className="text-secondary mx-auto w-75"/>
+              </Bounce>
       <Bounce>
-      <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
-    <div className="col">
-    <div className="card h-100 bg-image hover-zoom">
+      <div className="row row-cols-1 row-cols-md-3 g-4 mt-3 ">
+      <div className="col ">
+      <div className="card h-100 bg-image hover-zoom">
       <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/team1.png" className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Alizeh Anderson
-        </h5>
-        <p >Senior Chef</p>
-      </div>
-      <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div className="col">
-    <div className="card h-100 bg-image hover-zoom">
-      <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/team2.png" className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Angelina John Doe
-        </h5>
-        <p className="card-text">Master Chef</p>
-      </div>
-      <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div className="col">
-    <div className="card h-100 bg-image hover-zoom">
-      <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/team4.png" className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Vegetable & Chicken Wrap For Lunch</h5>
-        <p className="card-text">Psychologist</p>
-      </div>
-      <div className="card-footer">
-        <small className="text-muted">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-</div>
-</Bounce>
-       </div>
-      </div>
+      <div className="card-body text-info">
+             <h5 className="card-title text-info">Alizeh Anderson
+             </h5>
+             <p >Senior Chef</p>
+              </div>
+              <div className="card-footer">
+              <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+              </div>
+              </div>
+              <div className="col">
+              <div className="card h-100 bg-image hover-zoom">
+              <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/team2.png" className="card-img-top" alt="..."/>
+              <div className="card-body">
+              <h5 className="card-title text-info">Angelina John Doe
+              </h5>
+              <p className="card-text text-info">Master Chef</p>
+              </div>
+              <div className="card-footer">
+              <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+              </div>
+              </div>
+              <div className="col">
+              <div className="card h-100 bg-image hover-zoom">
+              <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/team4.png" className="card-img-top" alt="..."/>
+              <div className="card-body">
+              <h5 className="card-title text-info">Vegetable & Chicken Wrap For Lunch</h5>
+              <p className="card-text text-info">Psychologist</p>
+                    </div>
+                     <div className="card-footer">
+                     <small className="text-muted">Last updated 3 mins ago</small>
+                     </div>
+                     </div>
+                     </div>
+                     </div>
+                     </Bounce>
+                     </div>
+                     </div>
             
        
-            <div className="faq mt-5">
-                <h1 className="display-3 fw-bold">FAQ</h1><hr />
-                <div className="row ">
-                        <div className="second-info col-md-4 col-sm-12 mt-4">
+                     <div className="faq mt-5">
+                     <h1 className="display-3 fw-bold">FAQ</h1><hr />
+                           <div className="row ">
+                            <div className="second-info col-md-4 col-sm-12 mt-4">
                             <div className="">
                                 <img src="https://i.pinimg.com/originals/3d/fe/6f/3dfe6f11c68d78de7a141ec5a122db7d.gif" alt="" />
                             </div>
                             <div className=""><hr />
-      <div className="d-flex justify-content-center ">
+                 <div className="d-flex justify-content-center ">
      
-     <div className="m-2 ">
-      <h3><i className="fab fa-facebook-square icon text-primary"></i></h3>
-      </div>
-      <div className="m-2 ">
-      <h3><i className="fab fa-instagram icon text-danger"></i></h3>
-      </div>
-      <div className="m-2">
-      <h3><i className="fab fa-linkedin icon text-primary"></i></h3>
-      </div>
-      <div className="m-2">
-      <h3><i className="fab fa-youtube text-danger icon  "></i></h3>
-      </div>
-      <div className="m-2">
-      <h3><i className="fab fa-twitter icon text-primary"></i></h3>
-      </div>
-      </div>
+                 <div className="m-2 ">
+                 <h3><i className="fab fa-facebook-square icon text-primary"></i></h3>
+                 </div>
+                 <div className="m-2 ">
+                 <h3><i className="fab fa-instagram icon text-danger"></i></h3>
+                 </div>
+                 <div className="m-2">
+                 <h3><i className="fab fa-linkedin icon text-primary"></i></h3>
+                 </div>
+                 <div className="m-2">
+                 <h3><i className="fab fa-youtube text-danger icon  "></i></h3>
+                 </div>
+                 <div className="m-2">
+                 <h3><i className="fab fa-twitter icon text-primary"></i></h3>
+                 </div>
+                 </div>
      
-          </div>
+                 </div>
                         <div className="">
                             <h3>If you need more help</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
@@ -260,15 +260,15 @@ const About = () => {
                        </div>
                         </div>
                         <Fade right>
-                    <div className="col-md-8 col-sm-12 mt-5">
-                      <div className="information rounded-pill p-3 m-3"><h3>Is it possible to pay by credit card?</h3></div>
-                      <div className="information rounded-pill p-3 m-3"><h3>Can I return the product after purchase?</h3></div>
-                      <div className="information rounded-pill p-3 m-3"><h3>How do I use a promotional code?</h3></div>
-                      <div className="information rounded-pill p-3 m-3"><h3>What if the prepaid goods are not delivered?</h3></div>
-                      <div className="information rounded-pill p-3 m-3"><h3>Is it possible to pay by credit card?</h3></div>
-                      <div className="information rounded-pill p-3 m-3"><h3>Where and how can I exchange or refund?</h3></div>
-                      <div className="information rounded-pill p-3 m-3"><h3>Where and how can I exchange or refund?</h3></div>
-                      <div className="information rounded-pill p-3 m-3"><h3>And more options...</h3></div>
+                    <div className="col-md-8 col-sm-12 mt-5 mb-3">
+                      <div className="information p-3 m-3"><h3>Is it possible to pay by credit card?</h3></div>
+                      <div className="information p-3 m-3"><h3>Can I return the product after purchase?</h3></div>
+                      <div className="information p-3 m-3"><h3>How do I use a promotional code?</h3></div>
+                      <div className="information p-3 m-3"><h3>What if the prepaid goods are not delivered?</h3></div>
+                      <div className="information p-3 m-3"><h3>Is it possible to pay by credit card?</h3></div>
+                      <div className="information p-3 m-3"><h3>Where and how can I exchange or refund?</h3></div>
+                      <div className="information p-3 m-3"><h3>Where and how can I exchange or refund?</h3></div>
+                      <div className="information p-3 m-3"><h3>And more options...</h3></div>
                     </div>
                     </Fade>
             </div>

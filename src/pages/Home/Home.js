@@ -5,13 +5,14 @@ import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Populars from '../Populer/Populars';
 import Recommodation from '../recommodation/Recommodation';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
             <Populars></Populars>
-            {/* <ManageAllOrders></ManageAllOrders> */}
+             <Services></Services>
             <About></About>
             <Recommodation></Recommodation>
             <Contact></Contact>

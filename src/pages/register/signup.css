@@ -2,11 +2,14 @@
     
     height: 80vh;
     width: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2016/07/08/15/44/banner-1504653_960_720.png"),
-      linear-gradient(rgba(7, 7, 7, 0.379), rgba(14, 12, 12, 0.722));
+    background-image: url("https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+.sign-up{
+  background-color: rgba(34, 109, 174, 0.441);
 }
