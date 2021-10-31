@@ -20,8 +20,8 @@ const MyOrders = () => {
         })
     },[myOrders])
     return (
-        <div className="my-order bg-dark overflow-hidden">
-            <h1 className="text-center text-white">GET YOUR ORDERS</h1>
+        <div className="my-order bg-dark">
+            <h1 className="text-center">GET YOUR ORDERS</h1>
             <Row xs={1} md={4} className="g-4">
             {
                 myOrders?.filter(item => item?.email === user?.email).map(item => <Order key={item?._id} order={item}></Order>)

@@ -40,7 +40,7 @@ const ManageAllOrders = () => {
     
     return (
         <div className="bg-dark">
-            <h1 className="text-white banner-title">MANAGE YOUR ORDERS{}</h1>
+            <h1 className="text-white">MANAGE YOUR ORDERS{}</h1>
             <div class=" mb-3 container" style={{ maxWidth: "800px" }}>
                 <div >
                     {
